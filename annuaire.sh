@@ -4,11 +4,11 @@
 file="data.csv"
 
 # Mettre les infos du ldap
-LDAP_HOST="ldap.example.com"
+LDAP_HOST="hg.local"
 LDAP_PORT="389"
-LDAP_USER="cn=admin,dc=example,dc=com"
-LDAP_PASSWORD="admin_password"
-LDAP_BASE_DN="dc=example,dc=com"
+LDAP_USER="cn=admin,dc=hg,dc=local"
+LDAP_PASSWORD="admin"
+LDAP_BASE_DN="dc=hg,dc=local"
 
 while IFS=, read -r username email
 do
